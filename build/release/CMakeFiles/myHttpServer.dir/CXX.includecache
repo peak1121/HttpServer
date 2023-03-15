@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../..//base/baseTest.h
+iostream
+-
+
+/home/peak/moduo/HttpServer/MyHttpServer.cc
+net/netTest.h
+/home/peak/moduo/HttpServer/net/netTest.h
+
+/home/peak/moduo/HttpServer/net/netTest.h
+base/baseTest.h
+/home/peak/moduo/HttpServer/net/base/baseTest.h
+iostream
+-
+
