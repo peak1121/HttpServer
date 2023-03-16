@@ -1,2 +1,2 @@
-/usr/bin/ar qc ../lib/libnet.a  CMakeFiles/net.dir/netTest.cc.o
+/usr/bin/ar qc ../lib/libnet.a  
 /usr/bin/ranlib ../lib/libnet.a

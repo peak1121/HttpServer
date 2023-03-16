@@ -125,32 +125,167 @@ base/fast:
 	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/build
 .PHONY : base/fast
 
-baseTest.o: baseTest.cc.o
+Condition.o: Condition.cc.o
 
-.PHONY : baseTest.o
+.PHONY : Condition.o
 
 # target to build an object file
-baseTest.cc.o:
-	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/baseTest.cc.o
-.PHONY : baseTest.cc.o
+Condition.cc.o:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/Condition.cc.o
+.PHONY : Condition.cc.o
 
-baseTest.i: baseTest.cc.i
+Condition.i: Condition.cc.i
 
-.PHONY : baseTest.i
+.PHONY : Condition.i
 
 # target to preprocess a source file
-baseTest.cc.i:
-	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/baseTest.cc.i
-.PHONY : baseTest.cc.i
+Condition.cc.i:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/Condition.cc.i
+.PHONY : Condition.cc.i
 
-baseTest.s: baseTest.cc.s
+Condition.s: Condition.cc.s
 
-.PHONY : baseTest.s
+.PHONY : Condition.s
 
 # target to generate assembly for a file
-baseTest.cc.s:
-	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/baseTest.cc.s
-.PHONY : baseTest.cc.s
+Condition.cc.s:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/Condition.cc.s
+.PHONY : Condition.cc.s
+
+CountDownLatch.o: CountDownLatch.cc.o
+
+.PHONY : CountDownLatch.o
+
+# target to build an object file
+CountDownLatch.cc.o:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/CountDownLatch.cc.o
+.PHONY : CountDownLatch.cc.o
+
+CountDownLatch.i: CountDownLatch.cc.i
+
+.PHONY : CountDownLatch.i
+
+# target to preprocess a source file
+CountDownLatch.cc.i:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/CountDownLatch.cc.i
+.PHONY : CountDownLatch.cc.i
+
+CountDownLatch.s: CountDownLatch.cc.s
+
+.PHONY : CountDownLatch.s
+
+# target to generate assembly for a file
+CountDownLatch.cc.s:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/CountDownLatch.cc.s
+.PHONY : CountDownLatch.cc.s
+
+CurrentThread.o: CurrentThread.cc.o
+
+.PHONY : CurrentThread.o
+
+# target to build an object file
+CurrentThread.cc.o:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/CurrentThread.cc.o
+.PHONY : CurrentThread.cc.o
+
+CurrentThread.i: CurrentThread.cc.i
+
+.PHONY : CurrentThread.i
+
+# target to preprocess a source file
+CurrentThread.cc.i:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/CurrentThread.cc.i
+.PHONY : CurrentThread.cc.i
+
+CurrentThread.s: CurrentThread.cc.s
+
+.PHONY : CurrentThread.s
+
+# target to generate assembly for a file
+CurrentThread.cc.s:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/CurrentThread.cc.s
+.PHONY : CurrentThread.cc.s
+
+Exception.o: Exception.cc.o
+
+.PHONY : Exception.o
+
+# target to build an object file
+Exception.cc.o:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/Exception.cc.o
+.PHONY : Exception.cc.o
+
+Exception.i: Exception.cc.i
+
+.PHONY : Exception.i
+
+# target to preprocess a source file
+Exception.cc.i:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/Exception.cc.i
+.PHONY : Exception.cc.i
+
+Exception.s: Exception.cc.s
+
+.PHONY : Exception.s
+
+# target to generate assembly for a file
+Exception.cc.s:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/Exception.cc.s
+.PHONY : Exception.cc.s
+
+Thread.o: Thread.cc.o
+
+.PHONY : Thread.o
+
+# target to build an object file
+Thread.cc.o:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/Thread.cc.o
+.PHONY : Thread.cc.o
+
+Thread.i: Thread.cc.i
+
+.PHONY : Thread.i
+
+# target to preprocess a source file
+Thread.cc.i:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/Thread.cc.i
+.PHONY : Thread.cc.i
+
+Thread.s: Thread.cc.s
+
+.PHONY : Thread.s
+
+# target to generate assembly for a file
+Thread.cc.s:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/Thread.cc.s
+.PHONY : Thread.cc.s
+
+Timestamp.o: Timestamp.cc.o
+
+.PHONY : Timestamp.o
+
+# target to build an object file
+Timestamp.cc.o:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/Timestamp.cc.o
+.PHONY : Timestamp.cc.o
+
+Timestamp.i: Timestamp.cc.i
+
+.PHONY : Timestamp.i
+
+# target to preprocess a source file
+Timestamp.cc.i:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/Timestamp.cc.i
+.PHONY : Timestamp.cc.i
+
+Timestamp.s: Timestamp.cc.s
+
+.PHONY : Timestamp.s
+
+# target to generate assembly for a file
+Timestamp.cc.s:
+	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/Timestamp.cc.s
+.PHONY : Timestamp.cc.s
 
 # Help Target
 help:
@@ -161,9 +296,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... base"
 	@echo "... edit_cache"
-	@echo "... baseTest.o"
-	@echo "... baseTest.i"
-	@echo "... baseTest.s"
+	@echo "... Condition.o"
+	@echo "... Condition.i"
+	@echo "... Condition.s"
+	@echo "... CountDownLatch.o"
+	@echo "... CountDownLatch.i"
+	@echo "... CountDownLatch.s"
+	@echo "... CurrentThread.o"
+	@echo "... CurrentThread.i"
+	@echo "... CurrentThread.s"
+	@echo "... Exception.o"
+	@echo "... Exception.i"
+	@echo "... Exception.s"
+	@echo "... Thread.o"
+	@echo "... Thread.i"
+	@echo "... Thread.s"
+	@echo "... Timestamp.o"
+	@echo "... Timestamp.i"
+	@echo "... Timestamp.s"
 .PHONY : help
 
 

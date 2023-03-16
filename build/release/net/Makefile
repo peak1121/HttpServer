@@ -125,33 +125,6 @@ net/fast:
 	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f net/CMakeFiles/net.dir/build.make net/CMakeFiles/net.dir/build
 .PHONY : net/fast
 
-netTest.o: netTest.cc.o
-
-.PHONY : netTest.o
-
-# target to build an object file
-netTest.cc.o:
-	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f net/CMakeFiles/net.dir/build.make net/CMakeFiles/net.dir/netTest.cc.o
-.PHONY : netTest.cc.o
-
-netTest.i: netTest.cc.i
-
-.PHONY : netTest.i
-
-# target to preprocess a source file
-netTest.cc.i:
-	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f net/CMakeFiles/net.dir/build.make net/CMakeFiles/net.dir/netTest.cc.i
-.PHONY : netTest.cc.i
-
-netTest.s: netTest.cc.s
-
-.PHONY : netTest.s
-
-# target to generate assembly for a file
-netTest.cc.s:
-	cd /home/peak/moduo/HttpServer/build/release && $(MAKE) -f net/CMakeFiles/net.dir/build.make net/CMakeFiles/net.dir/netTest.cc.s
-.PHONY : netTest.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,9 +134,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... net"
 	@echo "... edit_cache"
-	@echo "... netTest.o"
-	@echo "... netTest.i"
-	@echo "... netTest.s"
 .PHONY : help
 
 

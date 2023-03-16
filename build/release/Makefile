@@ -137,6 +137,45 @@ base/fast:
 .PHONY : base/fast
 
 #=============================================================================
+# Target rules for targets named atomic_unittest
+
+# Build rule for target.
+atomic_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atomic_unittest
+.PHONY : atomic_unittest
+
+# fast build rule for target.
+atomic_unittest/fast:
+	$(MAKE) -f base/tests/CMakeFiles/atomic_unittest.dir/build.make base/tests/CMakeFiles/atomic_unittest.dir/build
+.PHONY : atomic_unittest/fast
+
+#=============================================================================
+# Target rules for targets named timestamp_test
+
+# Build rule for target.
+timestamp_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 timestamp_test
+.PHONY : timestamp_test
+
+# fast build rule for target.
+timestamp_test/fast:
+	$(MAKE) -f base/tests/CMakeFiles/timestamp_test.dir/build.make base/tests/CMakeFiles/timestamp_test.dir/build
+.PHONY : timestamp_test/fast
+
+#=============================================================================
+# Target rules for targets named thread_test
+
+# Build rule for target.
+thread_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 thread_test
+.PHONY : thread_test
+
+# fast build rule for target.
+thread_test/fast:
+	$(MAKE) -f base/tests/CMakeFiles/thread_test.dir/build.make base/tests/CMakeFiles/thread_test.dir/build
+.PHONY : thread_test/fast
+
+#=============================================================================
 # Target rules for targets named net
 
 # Build rule for target.
@@ -186,6 +225,9 @@ help:
 	@echo "... myHttpServer"
 	@echo "... edit_cache"
 	@echo "... base"
+	@echo "... atomic_unittest"
+	@echo "... timestamp_test"
+	@echo "... thread_test"
 	@echo "... net"
 	@echo "... MyHttpServer.o"
 	@echo "... MyHttpServer.i"

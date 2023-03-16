@@ -6,12 +6,47 @@
 },
 {
   "directory": "/home/peak/moduo/HttpServer/build/release/base",
-  "command": "/usr/bin/c++   -I/home/peak/moduo/HttpServer  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -o CMakeFiles/base.dir/baseTest.cc.o -c /home/peak/moduo/HttpServer/base/baseTest.cc",
-  "file": "/home/peak/moduo/HttpServer/base/baseTest.cc"
+  "command": "/usr/bin/c++   -I/home/peak/moduo/HttpServer  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -o CMakeFiles/base.dir/Condition.cc.o -c /home/peak/moduo/HttpServer/base/Condition.cc",
+  "file": "/home/peak/moduo/HttpServer/base/Condition.cc"
 },
 {
-  "directory": "/home/peak/moduo/HttpServer/build/release/net",
-  "command": "/usr/bin/c++   -I/home/peak/moduo/HttpServer  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -o CMakeFiles/net.dir/netTest.cc.o -c /home/peak/moduo/HttpServer/net/netTest.cc",
-  "file": "/home/peak/moduo/HttpServer/net/netTest.cc"
+  "directory": "/home/peak/moduo/HttpServer/build/release/base",
+  "command": "/usr/bin/c++   -I/home/peak/moduo/HttpServer  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -o CMakeFiles/base.dir/CountDownLatch.cc.o -c /home/peak/moduo/HttpServer/base/CountDownLatch.cc",
+  "file": "/home/peak/moduo/HttpServer/base/CountDownLatch.cc"
+},
+{
+  "directory": "/home/peak/moduo/HttpServer/build/release/base",
+  "command": "/usr/bin/c++   -I/home/peak/moduo/HttpServer  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -o CMakeFiles/base.dir/CurrentThread.cc.o -c /home/peak/moduo/HttpServer/base/CurrentThread.cc",
+  "file": "/home/peak/moduo/HttpServer/base/CurrentThread.cc"
+},
+{
+  "directory": "/home/peak/moduo/HttpServer/build/release/base",
+  "command": "/usr/bin/c++   -I/home/peak/moduo/HttpServer  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -o CMakeFiles/base.dir/Exception.cc.o -c /home/peak/moduo/HttpServer/base/Exception.cc",
+  "file": "/home/peak/moduo/HttpServer/base/Exception.cc"
+},
+{
+  "directory": "/home/peak/moduo/HttpServer/build/release/base",
+  "command": "/usr/bin/c++   -I/home/peak/moduo/HttpServer  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -o CMakeFiles/base.dir/Thread.cc.o -c /home/peak/moduo/HttpServer/base/Thread.cc",
+  "file": "/home/peak/moduo/HttpServer/base/Thread.cc"
+},
+{
+  "directory": "/home/peak/moduo/HttpServer/build/release/base",
+  "command": "/usr/bin/c++   -I/home/peak/moduo/HttpServer  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -o CMakeFiles/base.dir/Timestamp.cc.o -c /home/peak/moduo/HttpServer/base/Timestamp.cc",
+  "file": "/home/peak/moduo/HttpServer/base/Timestamp.cc"
+},
+{
+  "directory": "/home/peak/moduo/HttpServer/build/release/base/tests",
+  "command": "/usr/bin/c++   -I/home/peak/moduo/HttpServer  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -o CMakeFiles/atomic_unittest.dir/Atomic_unittest.cc.o -c /home/peak/moduo/HttpServer/base/tests/Atomic_unittest.cc",
+  "file": "/home/peak/moduo/HttpServer/base/tests/Atomic_unittest.cc"
+},
+{
+  "directory": "/home/peak/moduo/HttpServer/build/release/base/tests",
+  "command": "/usr/bin/c++   -I/home/peak/moduo/HttpServer  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -o CMakeFiles/timestamp_test.dir/TimeStamp_test.cc.o -c /home/peak/moduo/HttpServer/base/tests/TimeStamp_test.cc",
+  "file": "/home/peak/moduo/HttpServer/base/tests/TimeStamp_test.cc"
+},
+{
+  "directory": "/home/peak/moduo/HttpServer/build/release/base/tests",
+  "command": "/usr/bin/c++   -I/home/peak/moduo/HttpServer  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -o CMakeFiles/thread_test.dir/Thread_test.cc.o -c /home/peak/moduo/HttpServer/base/tests/Thread_test.cc",
+  "file": "/home/peak/moduo/HttpServer/base/tests/Thread_test.cc"
 }
 ]

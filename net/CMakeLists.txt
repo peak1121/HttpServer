@@ -1,7 +1,7 @@
-set(net_SRCS
-  netTest.cc
-  )
-# aux_source_directory(. net_SRCS)
+# set(net_SRCS
+#   netTest.cc
+#   )
+aux_source_directory(. net_SRCS)
 
   
 add_library(net ${net_SRCS})
