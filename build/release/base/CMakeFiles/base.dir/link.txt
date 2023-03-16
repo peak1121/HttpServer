@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/libbase.a  CMakeFiles/base.dir/Condition.cc.o CMakeFiles/base.dir/CountDownLatch.cc.o CMakeFiles/base.dir/CurrentThread.cc.o CMakeFiles/base.dir/Exception.cc.o CMakeFiles/base.dir/Thread.cc.o CMakeFiles/base.dir/Timestamp.cc.o
-/usr/bin/ranlib ../lib/libbase.a
