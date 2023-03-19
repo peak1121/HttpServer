@@ -56,6 +56,7 @@ struct ThreadData
     try
     {
       func_();
+      
       peak::CurrentThread::t_threadName = "finished";
     }
     catch (const Exception& ex)
