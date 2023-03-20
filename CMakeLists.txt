@@ -71,6 +71,8 @@ add_subdirectory(base)
 #include_directories(net)
 add_subdirectory(net)
 
+add_subdirectory(http)
+
 add_executable(myHttpServer MyHttpServer.cc)
-target_link_libraries(myHttpServer net)
+target_link_libraries(myHttpServer http)
 
